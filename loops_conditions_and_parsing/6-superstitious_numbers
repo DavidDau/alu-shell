@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Substiting numbers
+
+i=0
+while ["$i"-le 20];
+do
+if ((i=4));
+do echo "bad luck from China" done
+elif ((i=9));
+do echo "bad luck from Japan" done
+elif ((i=17));
+do echo "bad luck from Italy" done
+done
